@@ -12,6 +12,6 @@ expenses = [
 averages = [sum(x) / len(x) for x in zip(*expenses)]
 categories = ["Rent", "Food", "Utilities"]
 
-print("Average monthly expenses per category:")
+print("Average monthly expenses per category($):")
 for category, average in zip(categories, averages):
     print(f"{category}: ${average:.2f}")

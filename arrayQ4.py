@@ -1,7 +1,7 @@
 # Program to reverse the order of student marks in a subject
 
 marks = []
-subject=input("Enter subject: ")
+subject=input("Enter subject Name: ")
 
 num_students = int(input("Enter the number of students: "))
 print("Enter the marks for each student:")

@@ -1,7 +1,7 @@
 # program to Store and calculate the average of daily sales of a shop over a week.
 
 sales = []
-print("Enter the daily sales for 7 days:")
+print("Enter the daily sales for 7 days (Week):")
 for i in range(7):
     sales.append(float(input(f"Sales for Day {i+1}: ")))
 
